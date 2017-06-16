@@ -17,7 +17,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        getLatestLoans()
+        getLatestLoans() //
         
         // настроим самомасшабирование высоты ячейки
         tableView.estimatedRowHeight = 120.0
